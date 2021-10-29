@@ -1,0 +1,115 @@
+[gd_scene format=2]
+
+[node name="HBoxContainer" type="HBoxContainer"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+alignment = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+visible = false
+margin_bottom = 600.0
+
+[node name="HBoxContainer3" type="HBoxContainer" parent="."]
+margin_right = 338.0
+margin_bottom = 600.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+alignment = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="VBoxContainer" type="VBoxContainer" parent="HBoxContainer3"]
+margin_right = 338.0
+margin_bottom = 600.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="HSplitContainer" type="HSplitContainer" parent="HBoxContainer3/VBoxContainer"]
+margin_right = 338.0
+
+[node name="HBoxContainer" type="HBoxContainer" parent="HBoxContainer3/VBoxContainer"]
+margin_top = 4.0
+margin_right = 338.0
+margin_bottom = 18.0
+
+[node name="HSplitContainer3" type="HSplitContainer" parent="HBoxContainer3/VBoxContainer/HBoxContainer"]
+margin_bottom = 14.0
+
+[node name="Label" type="Label" parent="HBoxContainer3/VBoxContainer/HBoxContainer"]
+margin_left = 4.0
+margin_right = 123.0
+margin_bottom = 14.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "Pontos do jogador:"
+
+[node name="Label2" type="Label" parent="HBoxContainer3/VBoxContainer/HBoxContainer"]
+margin_left = 127.0
+margin_right = 127.0
+margin_bottom = 14.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="."]
+margin_left = 342.0
+margin_right = 680.0
+margin_bottom = 600.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+alignment = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="VBoxContainer" type="VBoxContainer" parent="HBoxContainer2"]
+margin_left = 169.0
+margin_right = 169.0
+margin_bottom = 600.0
+
+[node name="HBoxContainer4" type="HBoxContainer" parent="."]
+margin_left = 684.0
+margin_right = 1024.0
+margin_bottom = 600.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+alignment = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="VBoxContainer" type="VBoxContainer" parent="HBoxContainer4"]
+margin_right = 340.0
+margin_bottom = 600.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="HSplitContainer3" type="VSplitContainer" parent="HBoxContainer4/VBoxContainer"]
+margin_right = 340.0
+
+[node name="HBoxContainer" type="HBoxContainer" parent="HBoxContainer4/VBoxContainer"]
+margin_top = 4.0
+margin_right = 340.0
+margin_bottom = 18.0
+alignment = 2
+
+[node name="Label" type="Label" parent="HBoxContainer4/VBoxContainer/HBoxContainer"]
+margin_left = 224.0
+margin_right = 332.0
+margin_bottom = 14.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "Quantidade vida:"
+
+[node name="Label2" type="Label" parent="HBoxContainer4/VBoxContainer/HBoxContainer"]
+margin_left = 336.0
+margin_right = 336.0
+margin_bottom = 14.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+
+[node name="HSplitContainer2" type="HSplitContainer" parent="HBoxContainer4/VBoxContainer/HBoxContainer"]
+margin_left = 340.0
+margin_right = 340.0
+margin_bottom = 14.0
